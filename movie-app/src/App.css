@@ -38,3 +38,52 @@ body {
 	width: auto;
 	height: fit-content;
 }
+
+.containerr {
+	position: relative;
+	width: 100%;
+	max-width: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #141414;
+	box-shadow: #141414;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlayy {
+	position: absolute;
+	bottom: 0;
+	
+	background: rgba(247, 244, 244, 0.7); /* Black see-through */
+	color: black;
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	max-height:35%;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .containerr:hover .overlayy {
+	opacity: 1;
+  }
+
+  .movies{
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: center;
+	  margin-left: 10%;
+  }
+
+  .page{
+	  display: inline-block;
+	  align-items: center;
+  }

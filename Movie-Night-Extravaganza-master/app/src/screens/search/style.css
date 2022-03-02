@@ -1,0 +1,15 @@
+  .marginBottom{
+      margin-bottom: 30px;
+  }
+
+  .setFont{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+  }
+
+  .dropDownAndtext{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width:100%;
+  }
